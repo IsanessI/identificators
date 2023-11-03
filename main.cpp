@@ -17,4 +17,5 @@ int main() //works only with code without errors
 	}
 
 	find_id(in);
+	_getch();
 }
