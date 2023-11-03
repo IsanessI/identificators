@@ -12,7 +12,7 @@ int main() //works only with code without errors
 	while (!in.is_open())
 	{
 		std::cout << "File or directory doesn't exist. Please, try again: ";
-		std::cin >> file;
+		std::getline(std::cin, file);
 		in.open(file);
 	}
 
